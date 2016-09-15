@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: url('../img/capa.png') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -27,12 +27,21 @@ body {
     font-size: 130px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    
 }
 
 .headline h2 {
     font-size: 77px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    margin-top:220px;
+    
+}
+
+.headline h3 {
+    color:#fff;
+    margin-top:10px;
+    
 }
 
 .featurette-divider {
@@ -66,7 +75,9 @@ footer {
 
     .headline h2 {
         font-size: 63px;
+        
     }
+    
 
     .featurette-divider {
         margin: 50px 0;
